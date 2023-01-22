@@ -217,93 +217,87 @@
                     </div>
                 </nav>
                 <div class="container-fluid">
-                    <h3 class="text-dark mb-4">Stopped Projects</h3>
-                    <div class="card shadow">
-                        <div class="card-header py-3">
-                            <p class="text-primary m-0 fw-bold">Employee Info</p>
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">New Clients Form</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="NewClient">New Client</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="radio" id="formCheck-2"><label class="form-check-label" for="Old Client">Old Client</label></div>
                         </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-6 text-nowrap">
-                                    <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label class="form-label">Show&nbsp;<select class="d-inline-block form-select form-select-sm">
-                                                <option value="10" selected="">10</option>
-                                                <option value="25">25</option>
-                                                <option value="50">50</option>
-                                                <option value="100">100</option>
-                                            </select>&nbsp;</label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-md-end dataTables_filter" id="dataTable_filter"><label class="form-label"><input type="search" class="form-control form-control-sm" aria-controls="dataTable" placeholder="Search"></label></div>
-                                </div>
+                        <div class="col">
+                            <div class="form-check form-switch form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="Website">Website</label></div>
+                            <div class="form-check form-switch form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="Marketing">Marketing</label></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 mt-4"><label class="form-label d-block">Client Name</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Email<br></label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Phone&nbsp;</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Business Industry</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Business Name</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Domain Name or<strong> Desired Domain Name</strong></label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Website Type</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Website development (Informational)">Website development (Informational)</option>
+                                <option value="website development (e-commerce)">website development (e-commerce)</option>
+                                <option value="website development (custom)">website development (custom)</option>
+                                <option value="Website development (Booking)">Website development (Booking)</option>
+                                <option value="Website development (Membership)">Website development (Membership)</option>
+                                <option value="Website development (Hourly)">Website development (Hourly)</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Hourly Time (Please put how many hours paid )</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Logo Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze">Bronze</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Prefered Method Of Communication</label><select class="w-100">
+                                <option value="Call " selected="">Call </option>
+                                <option value="Text">Text</option>
+                                <option value="Email">Email</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Hosting Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze">Bronze</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Add-on">Add-on</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Hosting Addon amount&nbsp; in MB (If applicable)</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Professional E-mail Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze">Bronze</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Add-on">Add-on</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Email Addon amount&nbsp; in MB (If applicable)</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Content Writing Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze">Bronze</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Gold">Gold</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Domain With Us</label><select class="w-100">
+                                <option value="Yes" selected="">Yes</option>
+                                <option value="No">No</option>
+                            </select></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Project Price</label><input type="text" class="w-100"></div>
+                        <div class="col-4 mt-4"><label class="form-label d-block">Initial Payment Amount</label><input type="text" class="w-100"></div>
+                        <div class="col-6 mt-4"><label class="form-label d-block">Website Notes / Functionality Notes</label><textarea class="w-100" rows="5"></textarea></div>
+                        <div class="col-6 mt-4"><label class="form-label d-block">Reference Website</label><textarea class="w-100" rows="5"></textarea></div>
+                        <div class="col pb-5">
+                            <hr class="mt-5 mb-5">
+                            <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                                <h3 class="text-dark mb-0">Marketing Dept</h3>
                             </div>
-                            <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
-                                <table class="table my-0" id="dataTable">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Website</th>
-                                            <th>Get Date</th>
-                                            <th>Start Date</th>
-                                            <th>Stopped Date</th>
-                                            <th>Reason</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Airi Satou</td>
-                                            <td>energyhealingbyterry.com<br></td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis.<br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Angelica Ramos</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bradley Greer</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr></tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr></tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 align-self-center">
-                                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Showing 1 to 10 of 27</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
-                                        <ul class="pagination">
-                                            <li class="page-item disabled"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
-                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">SEO</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">SMO</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Google Ads</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">PTA</label></div>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Facebook Ads</label></div><button class="btn btn-primary d-block mt-3" type="button">Submit</button>
                         </div>
                     </div>
                 </div>

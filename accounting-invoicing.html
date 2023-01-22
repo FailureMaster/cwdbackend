@@ -217,94 +217,28 @@
                     </div>
                 </nav>
                 <div class="container-fluid">
-                    <h3 class="text-dark mb-4">Stopped Projects</h3>
-                    <div class="card shadow">
-                        <div class="card-header py-3">
-                            <p class="text-primary m-0 fw-bold">Employee Info</p>
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">Upsell Bonus Form</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-start d-flex justify-content-xxl-end mt-4">
+                            <div class="d-inline-block d-inline-block me-5"><label class="form-label d-block">Template</label><select>
+                                    <option value="Select" selected="">Select</option>
+                                    <option value="with HST">with HST</option>
+                                    <option value="Hours">Hours</option>
+                                    <option value="Post This Ad">Post This Ad</option>
+                                </select></div>
+                            <div class="d-inline-block me-5"><label class="form-label d-block">Currency code</label><select>
+                                    <option value="CAD" selected="">CAD</option>
+                                    <option value="USD" selected="">USD</option>
+                                </select></div>
                         </div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-6 text-nowrap">
-                                    <div id="dataTable_length" class="dataTables_length" aria-controls="dataTable"><label class="form-label">Show&nbsp;<select class="d-inline-block form-select form-select-sm">
-                                                <option value="10" selected="">10</option>
-                                                <option value="25">25</option>
-                                                <option value="50">50</option>
-                                                <option value="100">100</option>
-                                            </select>&nbsp;</label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-md-end dataTables_filter" id="dataTable_filter"><label class="form-label"><input type="search" class="form-control form-control-sm" aria-controls="dataTable" placeholder="Search"></label></div>
-                                </div>
-                            </div>
-                            <div class="table-responsive table mt-2" id="dataTable-1" role="grid" aria-describedby="dataTable_info">
-                                <table class="table my-0" id="dataTable">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Website</th>
-                                            <th>Get Date</th>
-                                            <th>Start Date</th>
-                                            <th>Stopped Date</th>
-                                            <th>Reason</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Airi Satou</td>
-                                            <td>energyhealingbyterry.com<br></td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis.<br><br></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Angelica Ramos</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Bradley Greer</td>
-                                            <td>energyhealingbyterry.com</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>4/1/2022</td>
-                                            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit, suscipit nisi veniam enim obcaecati explicabo cum quia dolorum praesentium nostrum facilis voluptate eum repudiandae quisquam omnis quod hic ipsam, sequi vero, vitae eveniet voluptatem possimus assumenda. Totam molestias fuga saepe iusto vero, exercitationem magni officiis accusamus, omnis adipisci perferendis. </td>
-                                        </tr>
-                                        <tr></tr>
-                                    </tbody>
-                                    <tfoot>
-                                        <tr></tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 align-self-center">
-                                    <p id="dataTable_info" class="dataTables_info" role="status" aria-live="polite">Showing 1 to 10 of 27</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <nav class="d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
-                                        <ul class="pagination">
-                                            <li class="page-item disabled"><a class="page-link" aria-label="Previous" href="#"><span aria-hidden="true">«</span></a></li>
-                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item"><a class="page-link" aria-label="Next" href="#"><span aria-hidden="true">»</span></a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="col-6 mt-4"><label class="form-label">Bill to:&nbsp;&nbsp;</label><select>
+                                <option value="select" selected="">select</option>
+                                <option value="GTA Grizzly">GTA Grizzly</option>
+                                <option value="Melanin Empress Collection">Melanin Empress Collection</option>
+                            </select></div>
+                        <div class="col-6 text-start d-flex justify-content-xxl-end mt-4"></div>
                     </div>
                 </div>
             </div>
