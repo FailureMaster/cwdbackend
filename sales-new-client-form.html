@@ -82,7 +82,7 @@
                                 <div><a class="btn btn-link nav-link" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-5" href="#collapse-5" role="button"><i class="fab fa-optin-monster"></i>&nbsp;<span>Marketing</span></a>
                                     <div class="collapse" id="collapse-5">
                                         <div class="bg-white border rounded py-2 collapse-inner">
-                                            <h6 class="collapse-header">Marketing specific</h6><a class="collapse-item" href="marketing-seo-clients.html">SEO CLIENTS</a><a class="collapse-item" href="register.html">GOOGLE ADS CLIENTS</a><a class="collapse-item" href="forgot-password.html">PTA CLIENTS</a>
+                                            <h6 class="collapse-header">Marketing specific</h6><a class="collapse-item" href="marketing-unassigned-seo.html">Unassigned SEO Clients</a><a class="collapse-item" href="marketing-seo-clients.html">SEO CLIENTS</a><a class="collapse-item" href="register.html">GOOGLE ADS CLIENTS</a><a class="collapse-item" href="forgot-password.html">PTA CLIENTS</a>
                                             <h6 class="collapse-header">mARKETING TOOLS</h6><a class="collapse-item" href="404.html">Tools credential</a>
                                         </div>
                                     </div>
@@ -98,8 +98,8 @@
                                 <div><a class="btn btn-link nav-link" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapse-6" href="#collapse-6" role="button"><i class="fas fa-dollar-sign"></i>&nbsp;<span>Sales</span></a>
                                     <div class="collapse show" id="collapse-6">
                                         <div class="bg-white border rounded py-2 collapse-inner">
-                                            <h6 class="collapse-header">Sales SPECIFIC</h6><a class="collapse-item" href="sales-new-client-form.html">Clients Order Form</a>
-                                            <h6 class="collapse-header">Others</h6><a class="collapse-item" href="sales-all-clients.html">All Clients Record</a>
+                                            <h6 class="collapse-header">Sales SPECIFIC</h6><a class="active collapse-item" href="sales-new-client-form.html">Clients Order Form</a><a class="collapse-item" href="sales-all-sales-history.html">Sales History</a><a class="collapse-item" href="sales-all-sales-client.html">All Clients</a>
+                                            <h6 class="collapse-header">Others</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -231,63 +231,69 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4 mt-4"><label class="form-label d-block">Client Name</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Email<br></label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Phone&nbsp;</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Business Industry</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Business Name</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Domain Name or<strong> Desired Domain Name</strong></label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Website Type</label><select class="w-100">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Client Name</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Email<br></label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Phone&nbsp;</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Business Industry</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Business Name</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Domain Name or<strong> Desired Domain Name</strong></label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Website Type</label><select class="w-100">
                                 <option value="None" selected="">None</option>
-                                <option value="Website development (Informational)">Website development (Informational)</option>
-                                <option value="website development (e-commerce)">website development (e-commerce)</option>
-                                <option value="website development (custom)">website development (custom)</option>
-                                <option value="Website development (Booking)">Website development (Booking)</option>
-                                <option value="Website development (Membership)">Website development (Membership)</option>
-                                <option value="Website development (Hourly)">Website development (Hourly)</option>
+                                <option value="Informational (500 CAD)">Informational (500 CAD)</option>
+                                <option value="E-commerce (1,000 CAD)">E-commerce (1,000 CAD)</option>
+                                <option value="Membership (1,500 CAD)">Membership (1,500 CAD)</option>
+                                <option value="Booking (1,200 CAD)">Booking (1,200 CAD)</option>
+                                <option value="Hourly (30 CAD / Hour)">Hourly (30 CAD / Hour)</option>
+                                <option value="Custom (To be quote)">Custom (To be quote)</option>
                             </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Hourly Time (Please put how many hours paid )</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Logo Package</label><select class="w-100">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Project Price</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Project Discount</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Hosting Package</label><select class="w-100">
                                 <option value="None" selected="">None</option>
-                                <option value="Bronze">Bronze</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Gold">Gold</option>
+                                <option value="Bronze (60 CAD / Year)">Bronze (60 CAD / Year)</option>
+                                <option value="Silver (90 CAD / Year)">Silver (90 CAD / Year)</option>
+                                <option value="Gold (120 CAD / Year)">Gold (120 CAD / Year)</option>
+                                <option value="Add-on">Add-on (1 CAD / 100MB)</option>
                             </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Prefered Method Of Communication</label><select class="w-100">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Hosting price given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Hosting discount given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Logo Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze ( 120 CAD |  2 revision | 1 sample )">Bronze ( 120 CAD | 2 revision | 1 sample )</option>
+                                <option value="Silver ( 150 CAD |  3 revision | 2 sample )">Silver ( 150 CAD | 3 revision | 2 sample )</option>
+                                <option value="Gold ( 250 CAD |  3 revision | 3 sample )">Gold ( 250 CAD | 3 revision | 3 sample )</option>
+                            </select></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Logo price given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Logo discount given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Professional E-mail Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze (24 CAD / Year | 1 Email)">Bronze (24 CAD / Year | 1 Email)</option>
+                                <option value="Silver (60 CAD / Year | 3 Email)">Silver (60 CAD / Year | 3 Email)</option>
+                                <option value="Gold (120 CAD / Year | 5 Email)">Gold (120 CAD / Year | 5 Email)</option>
+                                <option value="Add-on (1 CAD / 100MB )">Add-on (1 CAD / 100MB )</option>
+                            </select></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Professional E-mail price given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Professional E-mail discount&nbsp;</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Content Writing Package</label><select class="w-100">
+                                <option value="None" selected="">None</option>
+                                <option value="Bronze ($100 | 150 words | 2 revisions | 2 page)">Bronze ($100 | 150 words | 2 revisions | 2 page)</option>
+                                <option value="Silver ($150| 150 words | 2 revisions | 3 page)">Silver ($150| 150 words | 2 revisions | 3 page)</option>
+                                <option value="Gold ($200 | 500 words | 2 revisions | 7 page)">Gold ($200| 500 words | 2 revisions | 7 page)</option>
+                            </select></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Content Writing price given to client</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Content Writing discount&nbsp;</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Prefered Method Of Communication</label><select class="w-100">
                                 <option value="Call " selected="">Call </option>
                                 <option value="Text">Text</option>
                                 <option value="Email">Email</option>
                             </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Hosting Package</label><select class="w-100">
-                                <option value="None" selected="">None</option>
-                                <option value="Bronze">Bronze</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Gold">Gold</option>
-                                <option value="Add-on">Add-on</option>
-                            </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Hosting Addon amount&nbsp; in MB (If applicable)</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Professional E-mail Package</label><select class="w-100">
-                                <option value="None" selected="">None</option>
-                                <option value="Bronze">Bronze</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Gold">Gold</option>
-                                <option value="Add-on">Add-on</option>
-                            </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Email Addon amount&nbsp; in MB (If applicable)</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Content Writing Package</label><select class="w-100">
-                                <option value="None" selected="">None</option>
-                                <option value="Bronze">Bronze</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Gold">Gold</option>
-                            </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Domain With Us</label><select class="w-100">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Domain With Us</label><select class="w-100">
                                 <option value="Yes" selected="">Yes</option>
                                 <option value="No">No</option>
                             </select></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Project Price</label><input type="text" class="w-100"></div>
-                        <div class="col-4 mt-4"><label class="form-label d-block">Initial Payment Amount</label><input type="text" class="w-100"></div>
-                        <div class="col-6 mt-4"><label class="form-label d-block">Website Notes / Functionality Notes</label><textarea class="w-100" rows="5"></textarea></div>
-                        <div class="col-6 mt-4"><label class="form-label d-block">Reference Website</label><textarea class="w-100" rows="5"></textarea></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4"><label class="form-label d-block">Initial Payment Amount</label><input type="text" class="w-100"></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4"><label class="form-label d-block">Website Notes / Functionality Notes</label><textarea class="w-100" rows="5"></textarea></div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 mt-4"><label class="form-label d-block">Reference Websites</label><textarea class="w-100" rows="5"></textarea></div>
                         <div class="col pb-5">
                             <hr class="mt-5 mb-5">
                             <div class="d-sm-flex justify-content-between align-items-center mb-4">
@@ -297,7 +303,12 @@
                             <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">SMO</label></div>
                             <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Google Ads</label></div>
                             <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">PTA</label></div>
-                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Facebook Ads</label></div><button class="btn btn-primary d-block mt-3" type="button">Submit</button>
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Facebook Ads</label></div>
+                            <div class="row">
+                                <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 align-self-center"><label class="form-label d-block">How many months</label><input type="text" class="w-100"></div>
+                                <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 align-self-center"><label class="form-label d-block">Price quote</label><input type="text" class="w-100"></div>
+                                <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2 align-self-center"><label class="form-label d-block">Discount Given</label><input type="text" class="w-100"></div>
+                            </div><button class="btn btn-primary d-block mt-3" type="button">Submit</button>
                         </div>
                     </div>
                 </div>
